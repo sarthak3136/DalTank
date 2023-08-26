@@ -1,0 +1,144 @@
+.contact-page-container {
+  text-align: center;
+  padding-top: 100px;
+  position: relative;
+}
+
+.contact-heading {
+  font-size: 3rem;
+  color: #ff4081;
+  margin-bottom: 2rem;
+}
+
+.grid-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 2rem;
+  position: absolute;
+  top: 250px;
+}
+
+.grid-item {
+  padding: 2rem;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+
+  width: 200px;
+  height: 300px;
+  border: 1px solid black;
+}
+
+.grid-icon {
+  font-size: 4rem;
+  color: #407cff;
+  margin-top: 20px;
+}
+
+.grid-heading {
+  font-size: 1.8rem;
+  color: #333333;
+  padding-top: 1rem;
+}
+
+.grid-details {
+  color: #777777;
+  padding-top: 1rem;
+}
+
+.modalWrapper {
+  position: fixed;
+
+  top: 0;
+
+  bottom: 0;
+
+  left: 0;
+
+  right: 0;
+
+  background: #f2f2f2;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+}
+
+.modal {
+  min-width: 500px;
+
+  min-height: 700px;
+
+  background: white;
+
+  border-radius: 5px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  position: relative;
+
+  animation: fadeInDown 0.8s;
+}
+
+.btnClose {
+  position: absolute;
+
+  top: 8px;
+
+  right: 8px;
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+
+    transform: translateY(-50px);
+  }
+
+  100% {
+    opacity: 1;
+
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 600px) {
+  .modal {
+    min-width: 300px;
+
+    min-height: 500px;
+  }
+}
+
+.form {
+  width: 90%;
+
+  max-width: 400px;
+
+  margin-top: 20px;
+
+  padding: 20px;
+}
+
+.form-label {
+  font-weight: 500;
+
+  margin-left: -320px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.submit-btn {
+  width: 100%;
+}

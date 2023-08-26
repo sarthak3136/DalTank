@@ -1,0 +1,27 @@
+.form-container-idea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: "100%";
+  margin-top: "5rem";
+}
+
+.form-group-idea {
+  display: flex;
+  flex-direction: column;
+  margin-top: "5rem";
+  margin-bottom: 1rem;
+}
+
+.input-label-idea {
+  margin-bottom: 0.5rem;
+}
+.clicked-btn {
+  margin-bottom: 10px !important;
+}
+
+h1 {
+  text-align: "center";
+  margin-top: 60px;
+}
